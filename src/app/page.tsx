@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between">
-      <div className="flex flex-col md:flex-row w-full main-content">
-        <div className="flex md:w-1/2 items-center justify-center pb-4">
+    <main className="grid grid-rows-1 justify-between main-content overflow-y-auto overflow-x-hidden">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 main-content h-full justify-between">
+        <div className="flex items-center justify-center">
           <div className="flex flex-col text-start sm:text-end px-10">
             <h1
               className="text-5xl sm:text-7xl font-inter font-extrabold bg-clip-text text-transparent 
@@ -27,7 +27,7 @@ export default function Home() {
             {/* <button className="fill-">Get started</button> */}
           </div>
         </div>
-        <div className="flex flex-grow rounded-s-full sm:rounded-l-full justify-center items-center bg-home-background bg-cover md:flex"></div>
+        <div className="rounded-s-full sm:rounded-l-full justify-center items-center bg-home-background bg-cover md:flex"></div>
       </div>
     </main>
   );
