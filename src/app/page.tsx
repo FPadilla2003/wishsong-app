@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
       <div className="flex flex-col md:flex-row w-full main-content">
-        <div className="flex md:w-1/2 items-center justify-center pb-4 z-10">
+        <div className="flex md:w-1/2 items-center justify-center pb-4">
           <div className="flex flex-col text-start sm:text-end px-10">
             <h1
               className="text-5xl sm:text-7xl font-inter font-extrabold bg-clip-text text-transparent 
